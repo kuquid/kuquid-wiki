@@ -1,0 +1,16 @@
+# Wiki key — never commit. This file decrypts the entire wiki.
+wiki-key
+*wiki-key*
+*.key
+
+# Environment files
+.env
+.env.*
+
+# Plaintext exports — the wiki is ciphertext; exports are not
+*.plain.txt
+export-*.json
+
+# OS noise
+.DS_Store
+Thumbs.db
